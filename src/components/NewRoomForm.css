@@ -1,0 +1,10 @@
+.new-room-form {
+  background-color: aquamarine;
+  width: 100%;
+  max-width: 34vw;
+  height: 10vh;
+}
+
+.new-room-name-field {
+  width: 100%;
+}

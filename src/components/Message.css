@@ -1,0 +1,16 @@
+.message-container {
+  width: 100%;
+  /* background-color: darkgoldenrod; */
+  color: blue;
+  /* border-top: 0.5px solid brown; */
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.content-width {
+  width: fit-content;
+}
+
+.my-message {
+  margin-left: auto;
+}

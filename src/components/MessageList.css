@@ -1,0 +1,14 @@
+.message-list-container {
+  background-color: antiquewhite;
+  width: 100% !important;
+  /* max-width: 100% !important; */
+  height: 90vh;
+  max-height: 90vh;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+.messages-list {
+  width: 100%;
+  max-width: 100% !important;
+}

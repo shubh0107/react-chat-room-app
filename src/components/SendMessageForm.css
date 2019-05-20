@@ -1,0 +1,11 @@
+.new-message-form-container {
+  background-color: lightskyblue;
+  width: 100%;
+  max-width: 67vw;
+  height: 10vh;
+}
+
+.message-input-field {
+  /* height: 10vh; */
+  max-width: 100%;
+}
