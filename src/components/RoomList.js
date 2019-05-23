@@ -11,7 +11,7 @@ class RoomList extends Component {
 
     render() {
         // console.log('rooms in roomslist: ', this.props.rooms);
-        const { rooms, roomId, gettingRooms } = this.props;
+        const { rooms, roomId, userId, gettingRooms } = this.props;
         const orderedRooms = [...rooms].sort((a, b) => a.id - b.id)
         if (gettingRooms) {
             return (
@@ -24,6 +24,9 @@ class RoomList extends Component {
         } else {
             return (
                 <div className="room-list-container container col-4">
+                    <div className="">
+                        Logged in as<Header> {userId}</Header>
+                    </div>
                     <Header as="h1" className="pl-2">Rooms:</Header>
                     {/* <List divided animated verticalAlign='middle' size="massive" className="pl-4">
                         {orderedRooms.map(room => {
@@ -50,12 +53,17 @@ class RoomList extends Component {
                                     active={active}
                                     onClick={() => this.props.subscribeToRoom(room.id)}
                                 >
-                                    {room.name}
+                                    # {room.name}
                                 </List.Item>
                             )
                         })}
                     </List>
+
+
+
+
                 </div>
+
             )
 
         }

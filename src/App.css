@@ -1,0 +1,8 @@
+.ui .modal {
+  position: relative;
+  /* height: 100%;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto; */
+  max-height: fit-content;
+}
